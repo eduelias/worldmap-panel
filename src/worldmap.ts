@@ -105,7 +105,7 @@ export default class WorldMap {
     return _.filter(data, o => {
       return !(this.ctrl.panel.hideEmpty && _.isNil(o.value)) 
           && !(this.ctrl.panel.hideZero && o.value === 0)
-          && !(this.ctrl.panel.minThreshould && o.value <= this.ctrl.panel.minThreshould)
+          && !(this.ctrl.panel.minThreshold && o.value <= this.ctrl.panel.minThreshold)
     });
   }
 

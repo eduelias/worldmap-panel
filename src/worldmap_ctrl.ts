@@ -16,7 +16,7 @@ const panelDefaults = {
   mapCenterLongitude: 0,
   initialZoom: 1,
   valueName: "total",
-  minThreshould: 0,
+  minThreshold: 0,
   circleMinSize: 2,
   circleMaxSize: 30,
   locationData: "countries",
