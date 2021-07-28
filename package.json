@@ -1,5 +1,5 @@
 {
-  "name": "providence-worldmap-panel",
+  "name": "providence-grafana-worldmap-panel",
   "version": "1.0.2",
   "description": "Providence's Worldmap Panel Plugin for Grafana",
   "main": "src/module.js",
