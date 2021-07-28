@@ -139,7 +139,7 @@ export default class WorldmapCtrl extends MetricsPanelCtrl {
       this.panel.locationData !== "json result"
     ) {
       $.getJSON(
-        "public/plugins/providence-grafana-worldmap-panel/data/" +
+        "public/plugins/advanced-wordmap-panel/data/" +
           this.panel.locationData +
           ".json"
       ).then(this.reloadLocations.bind(this));
@@ -174,7 +174,7 @@ export default class WorldmapCtrl extends MetricsPanelCtrl {
   onInitEditMode() {
     this.addEditorTab(
       "Worldmap",
-      "public/plugins/providence-grafana-worldmap-panel/partials/editor.html",
+      "public/plugins/advanced-wordmap-panel/partials/editor.html",
       2
     );
   }

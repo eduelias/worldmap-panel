@@ -1,7 +1,7 @@
 {
-  "name": "providence-grafana-worldmap-panel",
+  "name": "advanced-wordmap-panel",
   "version": "1.0.2",
-  "description": "Providence's Worldmap Panel Plugin for Grafana",
+  "description": "Advanced Worldmap Panel Plugin for Grafana",
   "main": "src/module.js",
   "scripts": {
     "build": "node --max-old-space-size=8192 ./node_modules/.bin/webpack --config webpack.config.prod.js",
@@ -11,7 +11,6 @@
   },
   "keywords": [
     "HBOMax",
-    "Providence",
     "worldmap",
     "grafana",
     "plugin",
