@@ -20,7 +20,7 @@ jobs:
       - name: Set patch number in version
         run: |
           sudo apt-get install -y moreutils
-          cat package.json | jq -c '.version=(.version)+".{{github.run_number}}"' | sponge package.json
+          cat package.json | jq -c '.version=(.version)+".${{github.run_number}}"' | sponge package.json
           cat package.json
 
       - name: Install dependencies
