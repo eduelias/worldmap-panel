@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ master,feature\CAPS-5387-ci-pipeline ]
+    branches: [ master,feature/CAPS-5387-ci-pipeline ]
   pull_request:
     branches: [ master ]
 
