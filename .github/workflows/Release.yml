@@ -19,8 +19,8 @@ jobs:
 
       - name: Set patch number in version
         run: |
-          sudo apt-get install jq
           cat package.json | jq -c '.version=(.version)+".{{github.run_number}}"' > package.json
+          cat package.json
 
       - name: Install dependencies
         run: npm i
