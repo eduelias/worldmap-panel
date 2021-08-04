@@ -280,6 +280,14 @@ If one value is specified then two colors are used. For example, if the threshol
 
 The threshold field also accepts 2 or more comma-separated values. For example, if you have 2 values that represents 3 ranges that correspond to the three colors. For example: if the thresholds are 70, 90 then the first color represents < 70, the second color represents between 70 and 90 and the third color represents > 90.
 
+### Makefile 
+
+Added a Makefile. Available commands are:
+```
+make build
+```
+This command will cleanup the dist folder, the dependencies and run the ```npm build``` command.
+
 ### CHANGELOG
 
 The latest changes can be found here: [CHANGELOG.md](https://github.com/grafana/worldmap-panel/blob/master/CHANGELOG.md)
