@@ -3,6 +3,7 @@ npm-debug.log
 .DS_Store
 .vscode
 .idea
+dist
 
 coverage/
 artifacts/
@@ -10,3 +11,6 @@ artifacts/
 .venv*
 bin/
 build/
+
+package-lock.json
+yarn.lock
