@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: "14.x"
+          node-version: "10.24.1"
 
       - name: Set patch number in version
         run: |
@@ -26,13 +26,13 @@ jobs:
           cat package.json
 
       - name: Install dependencies
-        run: npm i
+        run: yarn install
 
       - name: Build
-        run: npm run-script build
+        run: yarn build
 
       - name: Test
-        run: npm run-script test
+        run: yarn test
 
       - name: Get plugin metadata
         id: metadata
