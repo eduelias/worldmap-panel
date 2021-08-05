@@ -16,7 +16,7 @@ const panelDefaults = {
   mapCenterLongitude: 0,
   initialZoom: 1,
   valueName: "total",
-  minThreshold: 0,
+  minValue: 0,
   colorMetric:"",
   colorLabel: "",
   colorUnit:"%",
