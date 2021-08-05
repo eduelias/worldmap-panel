@@ -1,6 +1,6 @@
 {
-  "name": "wordmap-panel",
-  "version": "1.0",
+  "name": "worldmap-panel",
+  "version": "1.0.2",
   "description": "Worldmap Panel Plugin for Grafana",
   "main": "src/module.js",
   "scripts": {
@@ -10,13 +10,12 @@
     "test": "jest --config jest.config.js"
   },
   "keywords": [
-    "HBOMax",
     "worldmap",
     "grafana",
     "plugin",
     "panel"
   ],
-  "author": "Providence Team",
+  "author": "Grafana Labs",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.6",

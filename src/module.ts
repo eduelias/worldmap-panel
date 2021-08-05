@@ -3,8 +3,8 @@ import {loadPluginCss} from 'grafana/app/plugins/sdk';
 import WorldmapCtrl from './worldmap_ctrl';
 
 loadPluginCss({
-  dark: 'plugins/wordmap-panel/css/worldmap.dark.css',
-  light: 'plugins/wordmap-panel/css/worldmap.light.css'
+  dark: 'plugins/grafana-worldmap-panel/css/worldmap.dark.css',
+  light: 'plugins/grafana-worldmap-panel/css/worldmap.light.css'
 });
 
 export {

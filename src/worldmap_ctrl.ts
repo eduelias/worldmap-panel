@@ -143,7 +143,7 @@ export default class WorldmapCtrl extends MetricsPanelCtrl {
       this.panel.locationData !== "json result"
     ) {
       $.getJSON(
-        "public/plugins/wordmap-panel/data/" +
+        "public/plugins/grafana-worldmap-panel/data/" +
           this.panel.locationData +
           ".json"
       ).then(this.reloadLocations.bind(this));
