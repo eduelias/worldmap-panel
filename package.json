@@ -1,7 +1,7 @@
 {
-  "name": "advanced-wordmap-panel",
+  "name": "wordmap-panel",
   "version": "1.0",
-  "description": "Advanced Worldmap Panel Plugin for Grafana",
+  "description": "Worldmap Panel Plugin for Grafana",
   "main": "src/module.js",
   "scripts": {
     "build": "node --max-old-space-size=8192 ./node_modules/.bin/webpack --config webpack.config.prod.js",

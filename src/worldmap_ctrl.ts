@@ -143,7 +143,7 @@ export default class WorldmapCtrl extends MetricsPanelCtrl {
       this.panel.locationData !== "json result"
     ) {
       $.getJSON(
-        "public/plugins/advanced-wordmap-panel/data/" +
+        "public/plugins/wordmap-panel/data/" +
           this.panel.locationData +
           ".json"
       ).then(this.reloadLocations.bind(this));
@@ -178,7 +178,7 @@ export default class WorldmapCtrl extends MetricsPanelCtrl {
   onInitEditMode() {
     this.addEditorTab(
       "Worldmap",
-      "public/plugins/advanced-wordmap-panel/partials/editor.html",
+      "public/plugins/wordmap-panel/partials/editor.html",
       2
     );
   }
